@@ -5,4 +5,14 @@ def index(request):
         request,
         'secondproject/index.html',
     )
+def login_page(request):
+    return render(
+        request,
+        'secondproject/login_page.html',
+    )
+def signup_page(request):
+    return render(
+        request,
+        'secondproject/signup_page.html',
+    )
 # Create your views here.
