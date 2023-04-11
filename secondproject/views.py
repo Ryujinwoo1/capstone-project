@@ -15,4 +15,9 @@ def signup_page(request):
         request,
         'secondproject/signup_page.html',
     )
+def health_page(request):
+    return render(
+        request,
+        'secondproject/health_page.html',
+    )
 # Create your views here.
